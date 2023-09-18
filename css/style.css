@@ -96,10 +96,19 @@
     cursor: pointer;
     
 }
+.three{
+    background-color: #372d1f ;
+    border-radius: 25%;
+    margin-right: 25px;
+    
+}
 
 .photo {
     max-width: 1000px;
     height: 500px;
-    width: auto;
+    width: 100%;
+    border-radius: 25%;
+    object-fit: cover;
+
 
 }
