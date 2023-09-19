@@ -112,3 +112,25 @@
 
 
 }
+
+.middle h1{
+    font-size: 36px;
+    columns: #1F2937;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bubble{
+    display: flex;
+    gap: 4rem;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.bubble .info{
+    
+    height: 250px;
+    width: 250px;
+    border: 4px solid #3882F6;
+    border-radius: 15%;
+}
