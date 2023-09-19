@@ -5,6 +5,8 @@
     font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
 
 }
+
+
 html, body{
     height: 100%;
 
@@ -125,6 +127,7 @@ html, body{
 
 .bubble {
     display: flex;
+    flex-wrap: wrap;
     gap: 5rem;
     justify-content: center;
     padding-top: 50px;
