@@ -18,6 +18,7 @@ html, body{
 }
 
 
+/* Header */
 .top {
     background-color: #1F2937;
     color: white;
@@ -72,6 +73,7 @@ html, body{
     margin-left: -2rem;
 }
 
+/* Main section under header, above gallery */
 .main {
     display: flex;
     justify-content: center;
