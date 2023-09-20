@@ -226,36 +226,41 @@ a img:hover{
 }
 
 .end{
-    height: 500px;
-    width: auto;
-    background-color: white;
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    
-}
-.box{
-    height: 50%;
-    width: 80%;
-    background-color: #3882f6;
-    display: flex;
-    
+    border-radius: 5px;
+    border-color: none;
+   
 }
 
-.box h1{
+.items{
+    flex: 1;
+}
+
+.box h2,p{
     color: white;
-    text-align: left;
-    padding-left: 200px;
-    margin-top: 100px;
     
-
 }
 
+.box h2{
+    margin: 30px 0px 0px 50px;
+}
 .box p{
-    color: white;
-    text-align: left;
-    padding-left: 200px;
+    margin: 5px 0px 25px 50px;
+}
+
+.end button{
     
+    color: white;
+    border-color: white;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 8px;
+    padding: 5px 25px;
+    margin-left: 60%;
 }
 
 .footer{
